@@ -1,0 +1,80 @@
+body{
+  color: black;
+  text-align: center;
+  background-color: #e5c3fb; 
+  font-family: 'Arial', sans-serif; 
+  line-height: 1.6; 
+  margin: 0;
+  padding: 0; 
+}
+
+h1 {
+  color: rgb(136, 0, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 70px;
+  margin-top: 30px;
+  font-weight: lighter;
+  text-shadow: black 6px 4px 5px;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: rgb(249, 244, 244) 3px 5px 4px;
+  font-size: 50px;
+  font-weight:bolder;
+  color: #030e3c;
+  padding: 10px;
+}
+
+p {
+  text-align: left;
+}
+
+a {
+  font-size: larger;
+  color: #007bff; 
+  display: block;
+  margin: 6%; 
+}
+
+a:hover {
+  color: #04203d; 
+}
+
+#imagen{
+  border-radius: 50%; 
+}
+
+ul{
+  list-style-type: none;
+}
+
+/* Estilo para las secciones */
+
+.seccion-color1 {
+  background-color: #c57efb; 
+  padding: 20px;
+}
+
+.seccion-color2{
+  background-color: #daa9f1; 
+  padding: 20px;
+}
+
+/*Estilo de la lista de habilidades con imagenes*/
+
+ul#lista {
+  display: flex;
+  justify-content: center; 
+  margin-right: 20px;
+}
+
+ul#lista li{
+  margin-right: 20px;
+}
+
+.img-icono{
+  max-width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
